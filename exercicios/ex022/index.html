@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaçamentos</title>
+    <style>
+        body {
+            font-size: 15pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p#normal {
+            line-height: 2em;
+        }
+        p#palavra {
+            word-spacing: 1em;
+        }
+        p#letra {
+            letter-spacing: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Espaçamentos de texto</h1>
+    <p>Os parágrafos a seguir vão ter formatações de espaçamento diferentes usando as propriedades <code>line-height</code>, <code>letter-spacing</code> e <code>word-spacing</code>. Não se esqueça que é possível misturar todas essas configurações em um único seletor. Só fiz tudo separado para você conseguir entender melhor o resultado visual de cada um deles.</p>
+
+    <h2>Parágrafo normal, sem nenhuma formatação especial</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit urna id orci dignissim dictum. Proin eget nisl ligula. Integer rhoncus elementum elit, sit amet tempor tellus cursus sed. Quisque venenatis aliquet libero ut rutrum. Donec tempus dolor purus, at blandit leo tincidunt quis. Donec vitae ligula eu mi tempus sollicitudin vitae egestas quam.</p>
+
+    <h2>Parágrafo com <code>line-height</code></h2>
+    <p id="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit urna id orci dignissim dictum. Proin eget nisl ligula. Integer rhoncus elementum elit, sit amet tempor tellus cursus sed. Quisque venenatis aliquet libero ut rutrum. Donec tempus dolor purus, at blandit leo tincidunt quis. Donec vitae ligula eu mi tempus sollicitudin vitae egestas quam.</p>
+
+    <h2>Parágrafo com <code>word-spacing</code></h2>
+    <p id="palavra">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit urna id orci dignissim dictum. Proin eget nisl ligula. Integer rhoncus elementum elit, sit amet tempor tellus cursus sed. Quisque venenatis aliquet libero ut rutrum. Donec tempus dolor purus, at blandit leo tincidunt quis. Donec vitae ligula eu mi tempus sollicitudin vitae egestas quam.</p>
+
+    <h2>Parágrafo com <code>letter-spacing</code></h2>
+    <p id="letra">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit urna id orci dignissim dictum. Proin eget nisl ligula. Integer rhoncus elementum elit, sit amet tempor tellus cursus sed. Quisque venenatis aliquet libero ut rutrum. Donec tempus dolor purus, at blandit leo tincidunt quis. Donec vitae ligula eu mi tempus sollicitudin vitae egestas quam.</p>
+</body>
+</html>
