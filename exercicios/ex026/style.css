@@ -1,0 +1,7 @@
+body {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-color: white;
+    font: 13pt arial;
+    color: black;
+}
